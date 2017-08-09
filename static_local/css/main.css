@@ -1,0 +1,50 @@
+body {
+	background: none;
+    color: #fff;
+}
+
+.full {
+    background: url("/static/img/city.jpg") 50% 0 no-repeat fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.container {
+    /* margin-top: 200px; */
+    text-align: center;
+}
+
+.container h1 {
+    font-family: 'Bungee Inline', cursive;
+}
+
+.container h2 {
+    font-size: 1.7em;
+    color: black;
+}
+
+.main-container {
+    padding-top: 10%;
+    padding-bottom: 20%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    height: 70%;
+}
+
+.mailing_list {
+    /* margin-top: 150px; */
+    text-align: center;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    color: #fff;
+}
